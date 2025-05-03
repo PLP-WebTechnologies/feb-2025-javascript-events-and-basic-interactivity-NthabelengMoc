@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Interactive Website</h1>
+        
+        <div class="box">
+            <h2>Change Color</h2>
+            <div class="color-buttons">
+                <button id="red-btn">Light Purple</button>
+                <button id="blue-btn">Deep Purple</button>
+                <button id="green-btn">Magenta</button>
+            </div>
+            <div id="color-display" class="color-display">Choose a color</div>
+        </div>
+        
+        <div class="box">
+            <h2>Counter</h2>
+            <div class="counter">
+                <button id="decrease-btn">-</button>
+                <span id="count">0</span>
+                <button id="increase-btn">+</button>
+                <button id="reset-btn">Reset</button>
+            </div>
+        </div>
+        
+        <div class="box">
+            <h2>Name Input</h2>
+            <div class="form-group">
+                <input type="text" id="name-input" placeholder="Enter your name here">
+                <button id="submit-btn">Submit</button>
+            </div>
+            <p id="greeting-text"></p>
+        </div>
+        
+        <div class="box">
+            <h2>Todo List</h2>
+            <div class="todo-container">
+                <div class="form-group">
+                    <input type="text" id="todo-input" placeholder="Enter a task">
+                    <button id="add-todo-btn">Add</button>
+                </div>
+                <ul id="todo-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
